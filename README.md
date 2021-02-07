@@ -3,8 +3,7 @@ EMOJI_SHIRITORI
 
 Spreadsheetと組み合わせて絵文字でしりとりするプログラム
 
-## Description
-
+![動作キャプチャ](./screenshot.png)
 
 ## Usage
 
