@@ -1,0 +1,18 @@
+{
+  "devDependencies": {
+    "@babel/core": "^7.12.13",
+    "@babel/preset-env": "^7.12.13",
+    "@babel/preset-typescript": "^7.12.13",
+    "@google/clasp": "^2.3.0",
+    "@types/node": "^14.14.25",
+    "babel-loader": "^8.2.2",
+    "gas-webpack-plugin": "^1.2.2",
+    "ts-loader": "^8.0.15",
+    "webpack": "4.46.0",
+    "webpack-cli": "^4.5.0"
+  },
+  "scripts": {
+    "build": "webpack",
+    "deploy": "yarn build && clasp push"
+  }
+}
